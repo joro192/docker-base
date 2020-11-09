@@ -58,7 +58,7 @@ services:
       - ./client/src:/app/src
     links:
       - server
-    command: yarn build
+    command: yarn start
   nginx:
     image: nginx:1.15 
     ports:

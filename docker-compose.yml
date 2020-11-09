@@ -65,5 +65,6 @@ services:
       - 80:80
     depends_on: 
       - client
+      - server
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro

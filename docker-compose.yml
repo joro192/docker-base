@@ -58,4 +58,4 @@ services:
       - ./client/src:/app/src
     links:
       - server
-    command: yarn start
+    command: yarn build
